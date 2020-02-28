@@ -1,0 +1,9 @@
+[submodule "Molers/vendor/spdlog"]
+	path = Molers/vendor/spdlog
+	url = http://github.com/gabime/spdlog
+[submodule "Molers/vendor/GLFW"]
+	path = Molers/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
+[submodule "Molers/vendor/imgui"]
+	path = Molers/vendor/imgui
+	url = https://github.com/TheCherno/imgui
