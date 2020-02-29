@@ -7,3 +7,6 @@
 [submodule "Molers/vendor/imgui"]
 	path = Molers/vendor/imgui
 	url = https://github.com/TheCherno/imgui
+[submodule "Molers/vendor/glm"]
+	path = Molers/vendor/glm
+	url = https://github.com/g-truc/glm

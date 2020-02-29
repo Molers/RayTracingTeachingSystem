@@ -1,0 +1,23 @@
+﻿cl : 命令行 warning D9025: 正在重写“/MTd”(用“/MDd”)
+  SandBox.cpp
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\src\Core\log.h(24,54): warning C4251: “Molers::log::s_Corelogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Molers::log”的客户端使用
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\vendor\spdlog\include\spdlog\details\registry.h(33): message : 参见“std::shared_ptr<spdlog::logger>”的声明
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\src\Core\log.h(25,56): warning C4251: “Molers::log::s_Clientlogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Molers::log”的客户端使用
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\vendor\spdlog\include\spdlog\details\registry.h(33): message : 参见“std::shared_ptr<spdlog::logger>”的声明
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\src\Core\Layer.h(21,26): warning C4251: “Molers::Layer::m_DebugName”: class“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”需要有 dll 接口由 class“Molers::Layer”的客户端使用
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\include\xstring(4448): message : 参见“std::basic_string<char,std::char_traits<char>,std::allocator<char>>”的声明
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\src\Core\LayerStack.h(25,31): warning C4251: “Molers::LayerStack::m_Layers”: class“std::vector<Molers::Layer *,std::allocator<Molers::Layer *>>”需要有 dll 接口由 class“Molers::LayerStack”的客户端使用
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\src\Core\LayerStack.h(21): message : 参见“std::vector<Molers::Layer *,std::allocator<Molers::Layer *>>”的声明
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\src\Core\LayerStack.h(27,46): warning C4251: “Molers::LayerStack::m_LayerInsert”: class“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”需要有 dll 接口由 class“Molers::LayerStack”的客户端使用
+          with
+          [
+              _Ty=Molers::Layer *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.24.28314\include\vector(439): message : 参见“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”的声明
+          with
+          [
+              _Ty=Molers::Layer *
+          ]
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\src\Core\Application.h(37,35): warning C4251: “Molers::Application::m_Window”: class“std::unique_ptr<Molers::Window,std::default_delete<Molers::Window>>”需要有 dll 接口由 class“Molers::Application”的客户端使用
+E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Molers\src\Core\Application.h(37): message : 参见“std::unique_ptr<Molers::Window,std::default_delete<Molers::Window>>”的声明
+  Games.vcxproj -> E:\RayTracing\Imgui\imgui_glfw3_raytracing_T_M_S\Games\..\bin\Debug-x86_64\Games\Games.exe
